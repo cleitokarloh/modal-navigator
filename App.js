@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { useRef, useState } from 'react';
-import { StyleSheet, Text, View, Modal, Button, Dimensions, ScrollView, NativeModules, TouchableOpacity, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View, Button, Dimensions, ScrollView, TouchableOpacity } from 'react-native';
 import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 import { getStatusBarHeight } from "react-native-safearea-height";
 
